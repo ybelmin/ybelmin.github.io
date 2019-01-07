@@ -1,2 +1,2 @@
 # ybelmin.github.io
-Personal Github Pager website
+Personal Github Personal website
