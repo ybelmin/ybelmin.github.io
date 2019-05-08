@@ -17,83 +17,7 @@
         </li>
       </ul>
 
-      <header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
-        <div class="wrap">
-          <div class="title-area">
-            <h1 class="site-title" itemprop="headline">
-              <a href="https://ybelmin.github.io/">Yohan Belmin</a>
-            </h1>
-          </div>
-          <nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary">
-            <div class="wrap">
-              <ul id="menu-main_menu_en" class="menu genesis-nav-menu menu-primary js-superfish">
-                <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
-                  <a href="https://ybelmin.github.io/bio/" itemprop="url">
-                    <span itemprop="name">Bio</span>
-                  </a>
-                </li>
-                <li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-223">
-                  <a href="https://ybelmin.github.io/" aria-current="page" itemprop="url">
-                    <span itemprop="name">Blog</span>
-                  </a>
-                </li>
-                <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-                  <a href="https://ybelmin.github.io/media/" itemprop="url">
-                    <span itemprop="name">Media</span>
-                  </a>
-                </li>
-                <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-                  <a href="https://ybelmin.github.io/photos/" itemprop="url">
-                    <span itemprop="name">Photos</span>
-                  </a>
-                </li>
-                <li id="menu-item-600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-600">
-                  <a href="https://ybelmin.github.io/contact/" itemprop="url">
-                    <span itemprop="name">Contact</span>
-                  </a>
-                </li>
-                <li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660">
-                  <a href="https://ybelmin.github.io/newsletter/" itemprop="url">
-                    <span itemprop="name">Newsletter</span>
-                  </a>
-                </li>
-                <li id="menu-item-678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678">
-                  <a href="https://ybelmin.github.io/archives/" itemprop="url">
-                    <span itemprop="name">Archives</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-          <div class="header-widget-two">
-            <section id="simple-social-icons-3" class="widget simple-social-icons">
-              <div class="widget-wrap">
-                <ul class="alignright">
-                  <li class="ssi-linkedin">
-                    <a href="https://www.linkedin.com/in/ybelmin" target="_blank" rel="noopener noreferrer">
-                      <svg role="img" class="social-linkedin" aria-labelledby="social-linkedin-3">
-                        <title id="social-linkedin-3">LinkedIn</title>
-                        <use xlink:href="https://ybelmin.github.io/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <section id="search-2" class="widget widget_search">
-              <div class="widget-wrap">
-                <form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://ybelmin.github.io/" role="search">
-                  <label class="search-form-label screen-reader-text" for="searchform-5cc4968a0a65a8.11792427">Search...</label>
-                  <input class="search-form-input" type="search" itemprop="query-input" name="s" id="searchform-5cc4968a0a65a8.11792427" placeholder="Search...">
-                  <input class="search-form-submit" type="submit" value="Search">
-                  <meta itemprop="target" content="https://ybelmin.github.io/">
-                </form>
-              </div>
-            </section>
-          </div>
-        </div>
-      </header>
+      {%- include header.html -%}
 
       <div class="site-inner">
         <div class="content-sidebar-wrap">
@@ -125,181 +49,6 @@
                   </div>
                   <div class="pinterest" id="pinterest-before-720" data-url="https://ybelmin.github.io/2019/03/26/clip-from-the-met-more/" data-urlalt="https://ybelmin.github.io/?p=720" data-text="Clip from the Met + More" data-title="Pin" data-reader="Pin this" data-count="%s Pins"></div>
                 </div>
-
-          			<script type="text/javascript">
-          				jQuery(document).ready(function($) {
-          					if ( $.fn.waypoint ) {
-          										$("#facebook-before-720").waypoint( function() {
-          										$("#facebook-before-720").sharrre({
-          										  share: {
-          										    facebook: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("facebook");
-          										  }
-          										});
-          										},
-          										{ offset: "bottom-in-view" });
-          									} else {
-          										$("#facebook-before-720").sharrre({
-          										  share: {
-          										    facebook: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("facebook");
-          										  }
-          										});
-          									}
-                            if ( $.fn.waypoint ) {
-          										$("#twitter-before-720").waypoint( function() {
-          										$("#twitter-before-720").sharrre({
-          										  share: {
-          										    twitter: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("twitter");
-          										  }
-          										});
-          										},
-          										{ offset: "bottom-in-view" });
-          									} else {
-          										$("#twitter-before-720").sharrre({
-          										  share: {
-          										    twitter: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("twitter");
-          										  }
-          										});
-          									}
-                            if ( $.fn.waypoint ) {
-          										$("#linkedin-before-720").waypoint( function() {
-          										$("#linkedin-before-720").sharrre({
-          										  share: {
-          										    linkedin: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("linkedin");
-          										  }
-          										});
-          										},
-          										{ offset: "bottom-in-view" });
-          									} else {
-          										$("#linkedin-before-720").sharrre({
-          										  share: {
-          										    linkedin: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("linkedin");
-          										  }
-          										});
-          									}
-                            if ( $.fn.waypoint ) {
-          										$("#googleplus-before-720").waypoint( function() {
-          										$("#googleplus-before-720").sharrre({
-          										  share: {
-          										    googlePlus: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("googlePlus");
-          										  }
-          										});
-          										},
-          										{ offset: "bottom-in-view" });
-          									} else {
-          										$("#googleplus-before-720").sharrre({
-          										  share: {
-          										    googlePlus: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("googlePlus");
-          										  }
-          										});
-          									}
-                            if ( $.fn.waypoint ) {
-          										$("#pinterest-before-720").waypoint( function() {
-          										$("#pinterest-before-720").sharrre({
-          										  share: {
-          										    pinterest: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  pinterest: { media: 'https://ybelmin.github.io/wp-content/uploads/2019/03/vlcsnap-2019-03-26-09h05m03s708-e1553616455397.png', description: 'Clip from the Met + More' } },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("pinterest");
-          										  }
-          										});
-          										},
-          										{ offset: "bottom-in-view" });
-          									} else {
-          										$("#pinterest-before-720").sharrre({
-          										  share: {
-          										    pinterest: true
-          										  },
-          										  urlCurl: "https://ybelmin.github.io/wp-content/plugins/genesis-simple-share/lib/assets/js/sharrre/sharrre.php",
-          										  enableHover: false,
-          										  enableTracking: true,
-
-          										  buttons: {  pinterest: { media: 'https://ybelmin.github.io/wp-content/uploads/2019/03/vlcsnap-2019-03-26-09h05m03s708-e1553616455397.png', description: 'Clip from the Met + More' } },
-          										  click: function(api, options){
-          										    api.simulateClick();
-          										    api.openPopup("pinterest");
-          										  }
-          										});
-          									}
-          				  });
-          		  </script>
               <p>Here’s a little update from me since last January:  1) Here’s a clip of my performance in “La Fille du RÃ©giment” @ the Met; 2) Here is a fun time-lapse of the make-up process to age me for the role of the Notary;3) + my name was mentioned in a review of the opera! Finally, I’d like to give a shout-out to… <a href="https://ybelmin.github.io/2019/03/26/clip-from-the-met-more/">[Read More]</a></p>
             </div>
 
@@ -346,7 +95,7 @@
           <div class="widget-area footer-widgets-2 footer-widget-area">
 
             <style>
-                .rpwe-block ul{
+            .rpwe-block ul{
             list-style: none !important;
             margin-left: 0 !important;
             padding-left: 0 !important;
@@ -470,11 +219,8 @@
       </div>
     </div>
 
-    <footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter">
-      <div class="wrap">
-        <p><strong>© 2019 - Yohan Belmin - Some Rights Reserved</strong></p>
-      </div>
-    </footer>
+    {%- include footer.html -%}
+
     </div>
 
     <script>
