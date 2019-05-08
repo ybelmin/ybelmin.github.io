@@ -13,7 +13,9 @@ layout: default
     <ul class="">
       {%- for post in site.posts -%}
         <li>
-          <img width="900" height="200" src= {{ post.image | escape }} class="post-image" alt="">
+          {%- if post.image -%}
+            <img width="900" height="200" src= {{ post.image | escape }} class="post-image" alt="">
+          {%- endif -%}
           <article class="post-720 post type-post status-publish format-standard has-post-thumbnail category-news entry" itemscope itemtype="https://schema.org/CreativeWork">
             <header class="entry-header">
               <h3>
