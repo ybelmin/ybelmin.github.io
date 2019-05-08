@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+  {%- if page.title -%}
+    <h1 class="">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+
+    <ul class="">
+      {%- for post in site.posts -%}
+        <li>
+          <img width="900" height="200" src= {{ post.image | escape }} class="post-image" alt="">
+          <article class="post-720 post type-post status-publish format-standard has-post-thumbnail category-news entry" itemscope itemtype="https://schema.org/CreativeWork">
+            <header class="entry-header">
+              <h3>
+                <a class="entry-title" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+              <span class="entry-meta">{{ post.date | date: date_format }}</span>
+
+              {%- if site.show_excerpts -%}
+                {{ post.excerpt }}
+              {%- endif -%}
+
+            </header>
+            <footer class="entry-footer"></footer>
+          </article>
+        </li>
+
+      {%- endfor -%}
+    </ul>
+
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+
