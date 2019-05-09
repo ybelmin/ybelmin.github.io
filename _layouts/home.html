@@ -30,9 +30,12 @@ layout: default
 
               <span class="entry-meta">{{ post.date | date: date_format }}</span>
 
-              {%- if site.show_excerpts -%}
+              <br>
+              {{ post.excerpt }}
+
+              <!--{%- if site.show_excerpts -%}
                 {{ post.excerpt }}
-              {%- endif -%}
+              {%- endif -%}-->
 
             </header>
             <footer class="entry-footer"></footer>
