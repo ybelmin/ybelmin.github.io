@@ -1,16 +1,9 @@
 ---
-id: 497
 title: Home is where the Wine is
 date: 2015-02-11T15:00:23-04:00
 author: Yohan Belmin
 excerpt: "I'm loving Paris for another month before coming back to NY on March 1st. It would have been the longest time I've spent back home in 5 years, and it just feels right. I'm glad to share that the movie ALLURE directed by Vladan Nikolic, in which I appear, will be opening in NY on March 6 at the Quad Cinema."
 layout: post
-guid: http://www.yohanbelmin.com/?p=497
-permalink: /2015/02/11/home-is-where-the-wine-is/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5102142783"
 categories:
   - News
 ---

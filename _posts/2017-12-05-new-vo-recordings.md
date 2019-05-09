@@ -1,27 +1,9 @@
 ---
-id: 632
 title: New VO Recordings
 date: 2017-12-05T14:30:04-04:00
 author: Yohan Belmin
 excerpt: "Today, I'm happy to share that I've recorded a new VO for Getty Images + another one for Holiday Inn Express, both in French."
 layout: post
-guid: http://www.yohanbelmin.com/?p=632
-permalink: /2017/12/05/new-vo-recordings/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "6331104994"
-enclosure:
-  - |
-    https://www.dropbox.com/s/lz0svbl4aepjs4o/Getty%20Premium%20Access%20%20170817_FRFR.mp4?dl=0
-    0
-    video/mp4
-    
-  - |
-    https://www.dropbox.com/s/3e7k1x4pnqpm4ol/HIEX.mp4?dl=0
-    0
-    video/mp4
-    
 image: /wp-content/uploads/2017/12/StockSnap_P62MVB826H-e1512499276638.jpg
 categories:
   - News

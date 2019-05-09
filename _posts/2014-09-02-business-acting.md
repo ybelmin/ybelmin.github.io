@@ -1,17 +1,10 @@
 ---
-id: 484
 title: Business + Acting
 date: 2014-09-02T02:30:21-04:00
 author: Yohan Belmin
 excerpt: |
   I hope you had the chance to take a well-deserved break in August and that you are all fresh and ready to take "September" by the horns! I've spent my summer re-assessing my wants and my needs about my life and career goals. I has been a very enlightening process and, yes, one hell of a mental ride! Conclusion?
 layout: post
-guid: http://www.yohanbelmin.com/?p=484
-permalink: /2014/09/02/business-acting/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101254796"
 categories:
   - News
 ---

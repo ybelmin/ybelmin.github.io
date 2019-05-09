@@ -1,16 +1,9 @@
 ---
-id: 513
 title: Summer News
 date: 2015-07-08T15:00:35-04:00
 author: Yohan Belmin
 excerpt: 'I took a break from giving updates last month, it surprisingly felt good. I have been happy to be working more consistently thanks to the trust that several companies and people put in me. '
 layout: post
-guid: http://www.yohanbelmin.com/?p=513
-permalink: /2015/07/08/summer-news/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5102170975"
 categories:
   - News
 ---

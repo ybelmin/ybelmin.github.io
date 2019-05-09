@@ -1,19 +1,10 @@
 ---
-id: 1
 title: A whole new functional blog
 date: 2016-02-13T14:00:49-04:00
 author: Yohan Belmin
 excerpt: |
   Hey there, I've decided to make my website centered around a blog, to make it easier for me to publish, manage and share new content with <del>the world</del> you. It's a first, I'm very used to creating static websites, and it's always been a little frustrating for me not to be able to make them "live"!
 layout: post
-guid: http://www.yohanbelmin.com/?p=1
-permalink: /2016/02/13/a-whole-new-functional-blog/
-fg_temp_metadata:
-  - ""
-slide_template:
-  - default
-dsq_thread_id:
-  - "4508091594"
 image: /wp-content/uploads/2016/01/JAIJ9ZG8WC-e1453401106840.jpg
 categories:
   - News

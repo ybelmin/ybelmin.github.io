@@ -1,17 +1,10 @@
 ---
-id: 417
 title: NY Job Hunt!
 date: 2016-06-30T18:33:48-04:00
 author: Yohan Belmin
 excerpt: |
   I'm looking for a job! I'm back in NY after completing "Le Wagon" in Paris, and I'm a looking for a position as a"Junior Full Stack Ruby Developer".
 layout: post
-guid: http://www.yohanbelmin.com/?p=417
-permalink: /2016/06/30/ny-job-hunt/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "4951386758"
 image: /wp-content/uploads/2016/06/job-hunt-e1467312249630.jpg
 categories:
   - News

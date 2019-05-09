@@ -1,16 +1,9 @@
 ---
-id: 530
-title: 'Let&#8217;s be frank.'
+title: "Let's be frank."
 date: 2016-08-30T14:30:35-04:00
 author: Yohan Belmin
 excerpt: I first and foremost hope you are doing well…truly. You have been kind enough to read my newsletter/posts so far, some of you since I started writing them in 2013. Some of them were cheesy, some were good, some were a bit plain, but they were all part of a learning experience.
 layout: post
-guid: http://www.yohanbelmin.com/?p=530
-permalink: /2016/08/30/lets-be-frank/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5106446671"
 image: /wp-content/uploads/2016/08/freedomnature.jpg
 categories:
   - News

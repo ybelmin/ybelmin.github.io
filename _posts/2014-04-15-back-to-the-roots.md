@@ -1,15 +1,10 @@
 ---
-id: 475
 title: Back to the roots!
 date: 2014-04-15T15:45:30-04:00
 author: Yohan Belmin
 excerpt: |
   Spring has arrived, so I'll celebrate by making this message short and sweet! Tomorrow Wednesday April 16 at 7pm, I will be "exploring" on stage the American adaptation of the play "Shoot The Freak" as part of the Drama League 'Rough Draft Residency'.
 layout: post
-guid: http://www.yohanbelmin.com/?p=475
-permalink: /2014/04/15/back-to-the-roots/
-fg_temp_metadata:
-  - ""
 categories:
   - News
 ---

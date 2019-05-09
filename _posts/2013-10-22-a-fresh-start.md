@@ -1,16 +1,9 @@
 ---
-id: 456
 title: A fresh start!
 date: 2013-10-22T15:15:34-04:00
 author: Yohan Belmin
 excerpt: It is October, I am a year older and I have decided to make a new resolution and become proactive in my career! As I want to be better at staying in touch with you, I have decided to share quick periodic updates about my work that always include valuable information and recommendations.
 layout: post
-guid: http://www.yohanbelmin.com/?p=456
-permalink: /2013/10/22/a-fresh-start/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101146373"
 categories:
   - News
 ---

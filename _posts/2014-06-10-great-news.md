@@ -1,16 +1,9 @@
 ---
-id: 480
 title: Great news!
 date: 2014-06-10T15:00:40-04:00
 author: Yohan Belmin
 excerpt: "So what's new you are (not) asking me? ;-) I have recorded a voice-over in French for Adidas this past month. Come take a look at the commercial on Youtube!"
 layout: post
-guid: http://www.yohanbelmin.com/?p=480
-permalink: /2014/06/10/great-news/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101233886"
 categories:
   - News
 ---

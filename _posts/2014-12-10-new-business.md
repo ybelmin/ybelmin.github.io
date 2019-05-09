@@ -1,16 +1,9 @@
 ---
-id: 491
 title: New Business!
 date: 2014-12-10T14:45:11-04:00
 author: Yohan Belmin
 excerpt: "I stuck to it. I set myself a three-month goal, and the result is here. I'm proud, happy and relieved (not gonna lie!) to present to you MyActorTemplate.com (UPDATE: On hold, the business model wasn't working, I have a new idea in mind). This officially makes me an actor who creates websites for actors, and I like the idea of it!"
 layout: post
-guid: http://www.yohanbelmin.com/?p=491
-permalink: /2014/12/10/new-business/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101292772"
 categories:
   - News
 ---

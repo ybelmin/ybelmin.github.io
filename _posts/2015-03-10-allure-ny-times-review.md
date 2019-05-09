@@ -1,16 +1,9 @@
 ---
-id: 503
-title: '&#8220;Allure&#8221; + NY Times Review'
+title: '"Allure" + NY Times Review'
 date: 2015-03-10T14:30:02-04:00
 author: Yohan Belmin
 excerpt: "I'm back in NY. It's warm. It's nice. The movie ALLURE directed by Vladan Nikolic, in which I appear, got a pretty cool NY Times review, check it out."
 layout: post
-guid: http://www.yohanbelmin.com/?p=503
-permalink: /2015/03/10/allure-ny-times-review/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5102153104"
 categories:
   - News
 ---

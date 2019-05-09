@@ -1,17 +1,8 @@
 ---
-id: 720
 title: Clip from the Met + More
 date: 2019-03-26T14:15:35-04:00
 author: Yohan Belmin
 layout: post
-guid: http://www.yohanbelmin.com/?p=720
-permalink: /2019/03/26/clip-from-the-met-more/
-classic-editor-remember:
-  - block-editor
-fg_temp_metadata:
-  - ""
-fg_perm_metadata:
-  - ""
 image: /wp-content/uploads/2019/03/vlcsnap-2019-03-26-09h05m03s708-e1553616455397.png
 categories:
   - News

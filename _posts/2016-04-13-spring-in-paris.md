@@ -1,16 +1,9 @@
 ---
-id: 393
 title: Spring in Paris
 date: 2016-04-13T14:47:14-04:00
 author: Yohan Belmin
 excerpt: "Guess what, I'm back home for Spring for the first time in 6 years. And I know this comes as a relief to you as you were probably wondering day and night about where I was ;) I actually decided to come back to follow a 9-week computer programming course in Paris called Le Wagon."
 layout: post
-guid: http://www.yohanbelmin.com/?p=393
-permalink: /2016/04/13/spring-in-paris/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "4772795183"
 image: /wp-content/uploads/2016/04/paris-06-e1461510314362.jpg
 categories:
   - News

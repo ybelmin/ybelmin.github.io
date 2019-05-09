@@ -1,16 +1,9 @@
 ---
-id: 495
 title: Paris Bound
 date: 2015-01-07T11:15:43-04:00
 author: Yohan Belmin
 excerpt: "First and foremost, of course, happy new year for the 1000th time ;) I don't know about you but I have a good feeling about this one, as I had with 2014, 2013 and 2011. (2012 was such a bummer, wasn't it?) This January celebrates my 5-year anniversary in New York, and what a better place to celebrate it than... Paris."
 layout: post
-guid: http://www.yohanbelmin.com/?p=495
-permalink: /2015/01/07/paris-bound/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5102140628"
 categories:
   - News
 ---

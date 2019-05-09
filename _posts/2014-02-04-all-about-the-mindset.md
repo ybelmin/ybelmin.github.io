@@ -1,17 +1,10 @@
 ---
-id: 468
 title: All about the mindset!
 date: 2014-02-04T15:00:32-04:00
 author: Yohan Belmin
 excerpt: |
   In a career like acting, it always comes down to "How bad do you want it?" and personally, I am afraid of taking risks, rejection and failure. Seems like I'm hitting a wall here, aren't I! Well, I've decided to change that.
 layout: post
-guid: http://www.yohanbelmin.com/?p=468
-permalink: /2014/02/04/all-about-the-mindset/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101180769"
 categories:
   - News
 ---

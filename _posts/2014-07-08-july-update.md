@@ -1,16 +1,9 @@
 ---
-id: 482
 title: July Update
 date: 2014-07-08T15:00:24-04:00
 author: Yohan Belmin
 excerpt: Life is positive, I am starting to realize what path I truly want to follow, life-wise and acting-wise. I have been spending the beginning of my summer writing, reading and brainstorming and it has been bringing me serenity and focus. I feel I am transitioning into a new era of my blooming existence and I am sensing it is for the better.
 layout: post
-guid: http://www.yohanbelmin.com/?p=482
-permalink: /2014/07/08/july-update/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101244700"
 categories:
   - News
 ---

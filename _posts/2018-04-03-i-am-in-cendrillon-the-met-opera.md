@@ -1,14 +1,9 @@
 ---
-id: 645
-title: 'I am in &#8220;Cendrillon&#8221; @ The MET Opera!'
+title: 'I am in "Cendrillon" @ The MET Opera!'
 date: 2018-04-03T14:15:39-04:00
 author: Yohan Belmin
 excerpt: 'The stars kind of aligned big time and out of nowhere these past few months. The result is: I got cast as the Herald in “Cendrillon” @ the Metropolitan Opera which opens on April 12, for 8 performances over the span of 1 month.'
 layout: post
-guid: http://www.yohanbelmin.com/?p=645
-permalink: /2018/04/03/i-am-in-cendrillon-the-met-opera/
-fg_temp_metadata:
-  - ""
 image: /wp-content/uploads/2018/04/1380x591_cendrillon.jpg
 categories:
   - News

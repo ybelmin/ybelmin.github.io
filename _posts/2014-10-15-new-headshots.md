@@ -1,16 +1,9 @@
 ---
-id: 486
 title: New Headshots
 date: 2014-10-15T15:00:18-04:00
 author: Yohan Belmin
 excerpt: "What a cool thing it is to notice progress in your everyday life, things don't always go smoothly but knowing you're going in the right direction makes it exciting to keep rolling and see what's going to happen!"
 layout: post
-guid: http://www.yohanbelmin.com/?p=486
-permalink: /2014/10/15/new-headshots/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101267442"
 categories:
   - News
 ---

@@ -1,16 +1,9 @@
 ---
-id: 462
 title: Back on track!
 date: 2014-01-07T15:00:27-04:00
 author: Yohan Belmin
 excerpt: I hope you enjoyed the holidays and you are as excited as I am about going back on track! I took advantage of these past quiet weeks to edit my very first demo reel! Go take a look at it and share it as much as you like, it really does help!
 layout: post
-guid: http://www.yohanbelmin.com/?p=462
-permalink: /2014/01/07/back-on-track/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101163555"
 categories:
   - News
 ---

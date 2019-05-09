@@ -1,15 +1,11 @@
 ---
-id: 668
-title: 'Clip from &#8220;Cendrillon&#8221; + Agent Recommendation'
+
+title: 'Clip from "Cendrillon" + Agent Recommendation'
 date: 2018-05-29T14:15:45-04:00
 author: Yohan Belmin
 excerpt: |
   As you probably know, I had the chance to be part of the production of "Cendrillon" at the MET which closed on May 11. If you didn't manage to see it, either at the opera or at the movies, I wanted to share with you the clip of my appearance as the King's Herald!
 layout: post
-guid: http://www.yohanbelmin.com/?p=668
-permalink: /2018/05/29/clip-from-cendrillon-agent-recommendation/
-fg_temp_metadata:
-  - ""
 image: /wp-content/uploads/2018/05/vlcsnap-2018-04-30-00h04m39s223-e1527612584154.png
 categories:
   - News

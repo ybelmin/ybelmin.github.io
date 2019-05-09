@@ -1,16 +1,9 @@
 ---
-id: 488
 title: New Website
 date: 2014-11-12T15:00:50-04:00
 author: Yohan Belmin
 excerpt: "I have been working hard this month, despite what my inner little New York voice is trying to tell me! My new website is on (UPDATE: That was the previous one!)! I would love to hear your feedback, it'd help me make it even better, for me, and soon for others (hint hint) ;-)"
 layout: post
-guid: http://www.yohanbelmin.com/?p=488
-permalink: /2014/11/12/new-website/
-fg_temp_metadata:
-  - ""
-dsq_thread_id:
-  - "5101276520"
 categories:
   - News
 ---
