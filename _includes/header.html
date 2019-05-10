@@ -1,58 +1,62 @@
-      <header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
+<header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
+  <div class="wrap">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <div class="title-area">
+      <h1 class="site-title" itemprop="headline">
+        <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      </h1>
+    </div>
+    {%- if page_paths -%}
+      <nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary">
         <div class="wrap">
-          {%- assign default_paths = site.pages | map: "path" -%}
-          {%- assign page_paths = site.header_pages | default: default_paths -%}
-          <div class="title-area">
-            <h1 class="site-title" itemprop="headline">
-              <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-            </h1>
-          </div>
-          {%- if page_paths -%}
-            <nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary">
-              <div class="wrap">
-                <ul id="menu-main_menu_en" class="menu genesis-nav-menu menu-primary js-superfish">
-                  <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+          <ul id="menu-main_menu_en" class="menu genesis-nav-menu menu-primary js-superfish">
+            <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
 
-                    {%- for path in page_paths -%}
-                      {%- assign my_page = site.pages | where: "path", path | first -%}
-                      {%- if my_page.title -%}
-                      <a href="{{ my_page.url | relative_url }}">
-                        <span itemprop="name">{{ my_page.title | escape }}</span>
-                      </a>
-                      {%- endif -%}
-                    {%- endfor -%}
+              {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                <a href="{{ my_page.url | relative_url }}">
+                  <span itemprop="name">{{ my_page.title | escape }}</span>
+                </a>
+                {%- endif -%}
+              {%- endfor -%}
 
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          {%- endif -%}
-
-          <div class="header-widget-two">
-            <section id="simple-social-icons-3" class="widget simple-social-icons">
-              <div class="widget-wrap">
-                <ul class="alignright">
-                  <li class="ssi-linkedin">
-                    <a href="https://www.linkedin.com/in/ybelmin" target="_blank" rel="noopener noreferrer">
-                      <svg role="img" class="social-linkedin" aria-labelledby="social-linkedin-3">
-                        <title id="social-linkedin-3">LinkedIn</title>
-                        <use xlink:href="https://ybelmin.github.io/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!--<section id="search-2" class="widget widget_search">
-              <div class="widget-wrap">
-                <form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://ybelmin.github.io/" role="search">
-                  <label class="search-form-label screen-reader-text" for="searchform-5cc4968a0a65a8.11792427">Search...</label>
-                  <input class="search-form-input" type="search" itemprop="query-input" name="s" id="searchform-5cc4968a0a65a8.11792427" placeholder="Search...">
-                  <input class="search-form-submit" type="submit" value="Search">
-                  <meta itemprop="target" content="https://ybelmin.github.io/">
-                </form>
-              </div>
-            </section>-->
-          </div>
+            </li>
+          </ul>
         </div>
-      </header>
+      </nav>
+    {%- endif -%}
+
+    <div class="header-widget-two">
+      <!--
+      <section id="simple-social-icons-3" class="widget simple-social-icons">
+        <div class="widget-wrap">
+          <ul class="alignright">
+            <li class="ssi-linkedin">
+              <a href="https://www.linkedin.com/in/ybelmin" target="_blank" rel="noopener noreferrer">
+                <svg role="img" class="social-linkedin" aria-labelledby="social-linkedin-3">
+                  <title id="social-linkedin-3">LinkedIn</title>
+                  <use xlink:href="https://ybelmin.github.io/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      -->
+      <!--
+      <section id="search-2" class="widget widget_search">
+        <div class="widget-wrap">
+          <form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://ybelmin.github.io/" role="search">
+            <label class="search-form-label screen-reader-text" for="searchform-5cc4968a0a65a8.11792427">Search...</label>
+            <input class="search-form-input" type="search" itemprop="query-input" name="s" id="searchform-5cc4968a0a65a8.11792427" placeholder="Search...">
+            <input class="search-form-submit" type="submit" value="Search">
+            <meta itemprop="target" content="https://ybelmin.github.io/">
+          </form>
+        </div>
+      </section>
+      -->
+    </div>
+  </div>
+</header>
