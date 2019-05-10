@@ -7,7 +7,8 @@
   width: 1px;
 }
 
-a, .site-title:after,
+a,
+.site-title:after,
 .entry-header .entry-meta,
 .sharrre,
 .genesis-nav-menu a:hover,
@@ -17,7 +18,7 @@ a, .site-title:after,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus,
 p.entry-meta a:hover,
 p.entry-meta a:focus {
-  color: ;
+  /*color: ;*/
 }
 
 a {
@@ -33,7 +34,7 @@ input[type='submit'],
 .sharrre:hover,
 .genesis-nav-menu .sub-menu,
 .lSAction > a:hover {
-  background: ;
+  /*background: ;*/
 }
 
 .title-area,
