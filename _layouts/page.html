@@ -3,7 +3,9 @@ layout: default
 ---
 
 <main class="content" id="genesis-content">
-  <img width="900" height="200" src= {{ page.image | escape }} class="post-image" alt="">
+  {%- if page.image -%}
+    <img width="900" height="200" src= {{ page.image | escape }} class="post-image" alt="">
+  {%- endif -%}
   <article class="post-7 page type-page status-publish has-post-thumbnail entry" itemscope itemtype="https://schema.org/CreativeWork">
     <div class="entry-content" itemprop="text">
       {{ content }}
