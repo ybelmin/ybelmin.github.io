@@ -278,7 +278,7 @@ li.comment a {border-bottom: none;}
 .entry-pings .reply {display: none;}
 .bypostauthor {}
 .form-allowed-tags {background-color: #f5f5f5;font-size: 16px;font-size: 1.6rem;padding: 24px;}
-.site-footer {font-size: 16px;font-size: 1.6rem;line-height: 1;padding: 0 0 6% 300px;text-align: center;}
+.site-footer {font-size: 16px;font-size: 1.6rem;line-height: 1;padding: 0 0 6% 0px;text-align: center;}
 .simple-landing .site-footer {padding: 0 0 6% 0;}
 .site-footer .wrap {width: 800px;max-width: 84%;margin: 0 auto;padding: 2.5% 10% 5% 10%;}
 .site-footer a {text-decoration: none;}
@@ -339,7 +339,7 @@ a {font-weight: normal;text-decoration: none;border-bottom: none;}
 .post-image {box-shadow: 10px 15px 10px #888;}
 .site-header {padding: 5.5% 40px;}
 .site-footer .wrap {padding-top: 0;}
-.site-footer {padding-left: 225px;padding-top: 3%;}
+.site-footer {padding-left: 0px;padding-top: 3%;}
 a:visited:not(.more-link), .more-link {border-bottom: 1px solid #424b54;}
 .entry-header a {border-bottom: none !important;}
 .entry-header:after {margin-top: 0;display: none;}
