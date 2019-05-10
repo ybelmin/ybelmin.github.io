@@ -31,42 +31,38 @@
           <h3 class="widgettitle widget-title">Recent Posts:</h3>
           <div class="rpwe-block">
             <ul class="rpwe-ul">
-              <li class="rpwe-li rpwe-clearfix">
 
-                <a class="rpwe-img" href="https://ybelmin.github.io/2019/03/26/clip-from-the-met-more/" rel="bookmark">
-                <img class="rpwe-alignleft rpwe-thumb" src="https://ybelmin.github.io/wp-content/uploads/2019/03/vlcsnap-2019-03-26-09h05m03s708-e1553616455397-45x45.png" alt="Clip from the Met + More">
-                </a>
-                <h3 class="rpwe-title"><a href="https://ybelmin.github.io/2019/03/26/clip-from-the-met-more/" title="Permalink to Clip from the Met + More" rel="bookmark">Clip from the Met + More</a>
-                </h3>
-                <div class="rpwe-summary">Here’s a little update from me since last …
-                </div>
+              {%- if site.posts.size > 0 -%}
 
-              </li>
-              <li class="rpwe-li rpwe-clearfix">
+                {%- for post in site.posts limit:3 -%}
 
-                <a class="rpwe-img" href="https://ybelmin.github.io/2019/01/29/a-lot-of-great-news/" rel="bookmark">
-                <img class="rpwe-alignleft rpwe-thumb" src="https://ybelmin.github.io/wp-content/uploads/2019/01/1600x685_fille-e1548652918489-45x45.jpg" alt="A lot of great news!"></a>
-                <h3 class="rpwe-title"><a href="https://ybelmin.github.io/2019/01/29/a-lot-of-great-news/" title="Permalink to A lot of great news!" rel="bookmark">A lot of great news!</a>
-                </h3>
-                <div class="rpwe-summary">I got cast once again at The Metropolitan …
-                </div>
+                  <li class="rpwe-li rpwe-clearfix">
 
-              </li>
-              <li class="rpwe-li rpwe-clearfix">
+                    <a class="rpwe-img" href={{ post.url | relative_url }} rel="bookmark">
+                      {%- if post.image -%}
+                        <div class="rpwe-alignleft rpwe-thumb" style="width:45px; height: 45px; background-image: url({{ post.image | escape }}); background-size: cover; background-repeat:no-repeat; background-position:center;">
+                        </div>
+                      {%- endif -%}
+                    </a>
+                    <h3 class="rpwe-title">
+                      <a href={{ post.url | relative_url }} title="Permalink to Clip from the Met + More" rel="bookmark">{{ post.title | escape }}</a>
+                    </h3>
+                    <div class="rpwe-summary">
+                      {{ post.excerpt }}
+                    </div>
 
-                <a class="rpwe-img" href="https://ybelmin.github.io/2018/05/29/clip-from-cendrillon-agent-recommendation/" rel="bookmark">
-                <img class="rpwe-alignleft rpwe-thumb" src="https://ybelmin.github.io/wp-content/uploads/2018/05/vlcsnap-2018-04-30-00h04m39s223-e1527612584154-45x45.png" alt="Clip from “Cendrillon” + Agent Recommendation"></a>
-                <h3 class="rpwe-title"><a href="https://ybelmin.github.io/2018/05/29/clip-from-cendrillon-agent-recommendation/" title="Permalink to Clip from “Cendrillon” + Agent Recommendation" rel="bookmark">Clip from “Cendrillon” + Agent Recommendation</a>
-                </h3>
-                <div class="rpwe-summary">As you probablyÂ know, I had the chance to …
-                </div>
+                   </li>
 
-              </li>
+                  {%- endfor -%}
+
+                {%- endif -%}
+
             </ul>
           </div>
         </div>
       </section>
 
+      <!--
       <section id="simple-social-icons-6" class="widget simple-social-icons">
         <div class="widget-wrap">
           <ul class="aligncenter">
@@ -75,6 +71,7 @@
           </ul>
         </div>
       </section>
+      -->
 
     </div>
   </div>
