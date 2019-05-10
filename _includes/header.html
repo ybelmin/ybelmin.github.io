@@ -1,51 +1,32 @@
       <header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
         <div class="wrap">
+          {%- assign default_paths = site.pages | map: "path" -%}
+          {%- assign page_paths = site.header_pages | default: default_paths -%}
           <div class="title-area">
             <h1 class="site-title" itemprop="headline">
-              <a href="https://ybelmin.github.io/">Yohan Belmin</a>
+              <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
             </h1>
           </div>
-          <nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary">
-            <div class="wrap">
-              <ul id="menu-main_menu_en" class="menu genesis-nav-menu menu-primary js-superfish">
-                <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
-                  <a href="https://ybelmin.github.io/bio/" itemprop="url">
-                    <span itemprop="name">Bio</span>
-                  </a>
-                </li>
-                <li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-223">
-                  <a href="https://ybelmin.github.io/" aria-current="page" itemprop="url">
-                    <span itemprop="name">Blog</span>
-                  </a>
-                </li>
-                <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-                  <a href="https://ybelmin.github.io/media/" itemprop="url">
-                    <span itemprop="name">Media</span>
-                  </a>
-                </li>
-                <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-                  <a href="https://ybelmin.github.io/photos/" itemprop="url">
-                    <span itemprop="name">Photos</span>
-                  </a>
-                </li>
-                <li id="menu-item-600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-600">
-                  <a href="https://ybelmin.github.io/contact/" itemprop="url">
-                    <span itemprop="name">Contact</span>
-                  </a>
-                </li>
-                <li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660">
-                  <a href="https://ybelmin.github.io/newsletter/" itemprop="url">
-                    <span itemprop="name">Newsletter</span>
-                  </a>
-                </li>
-                <li id="menu-item-678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678">
-                  <a href="https://ybelmin.github.io/archives/" itemprop="url">
-                    <span itemprop="name">Archives</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+          {%- if page_paths -%}
+            <nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary">
+              <div class="wrap">
+                <ul id="menu-main_menu_en" class="menu genesis-nav-menu menu-primary js-superfish">
+                  <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+
+                    {%- for path in page_paths -%}
+                      {%- assign my_page = site.pages | where: "path", path | first -%}
+                      {%- if my_page.title -%}
+                      <a href="{{ my_page.url | relative_url }}">
+                        <span itemprop="name">{{ my_page.title | escape }}</span>
+                      </a>
+                      {%- endif -%}
+                    {%- endfor -%}
+
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          {%- endif -%}
 
           <div class="header-widget-two">
             <section id="simple-social-icons-3" class="widget simple-social-icons">
@@ -62,7 +43,7 @@
                 </ul>
               </div>
             </section>
-            <section id="search-2" class="widget widget_search">
+            <!--<section id="search-2" class="widget widget_search">
               <div class="widget-wrap">
                 <form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://ybelmin.github.io/" role="search">
                   <label class="search-form-label screen-reader-text" for="searchform-5cc4968a0a65a8.11792427">Search...</label>
@@ -71,7 +52,7 @@
                   <meta itemprop="target" content="https://ybelmin.github.io/">
                 </form>
               </div>
-            </section>
+            </section>-->
           </div>
         </div>
       </header>
