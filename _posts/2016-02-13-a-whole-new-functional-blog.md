@@ -5,7 +5,7 @@ author: Yohan Belmin
 excerpt: |
   Hey there, I've decided to make my website centered around a blog, to make it easier for me to publish, manage and share new content with <del>the world</del> you. It's a first, I'm very used to creating static websites, and it's always been a little frustrating for me not to be able to make them "live"!
 layout: post
-image: /wp-content/uploads/2016/01/JAIJ9ZG8WC-e1453401106840.jpg
+image: /content/images/banners/posts/JAIJ9ZG8WC-e1453401106840.jpg
 categories:
   - News
 ---

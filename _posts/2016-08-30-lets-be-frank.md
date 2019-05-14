@@ -4,7 +4,7 @@ date: 2016-08-30T14:30:35-04:00
 author: Yohan Belmin
 excerpt: I first and foremost hope you are doing well…truly. You have been kind enough to read my newsletter/posts so far, some of you since I started writing them in 2013. Some of them were cheesy, some were good, some were a bit plain, but they were all part of a learning experience.
 layout: post
-image: /wp-content/uploads/2016/08/freedomnature.jpg
+image: /content/images/banners/posts/freedomnature.jpg
 categories:
   - News
 ---

@@ -4,7 +4,7 @@ date: 2016-05-16T15:13:04-04:00
 author: Yohan Belmin
 excerpt: "Hope you're doing well and enjoying the warmer days. I'm still back home, finishing Le Wagon in 3 weeks. As a final project, 2 of my fellow students and I will be creating a <strong>web app themed around the Paleo Diet</strong>. More about it once it's in the making."
 layout: post
-image: /wp-content/uploads/2016/06/programming.jpg
+image: /content/images/banners/posts/programming.jpg
 categories:
   - News
 ---

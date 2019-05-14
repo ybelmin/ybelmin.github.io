@@ -4,7 +4,7 @@ date: 2017-08-29T14:25:51-04:00
 author: Yohan Belmin
 excerpt: "It's been 9 months since my last update! I've updated my website to reflect what happened recently in my career. You'll find new headshots I've taken, and 2 new French voice-overs + 1 video recorded in France last summer."
 layout: post
-image: /wp-content/uploads/2017/08/pexels-photo-411086-e1503960372270.jpeg
+image: /content/images/banners/posts/pexels-photo-411086-e1503960372270.jpeg
 categories:
   - News
 ---

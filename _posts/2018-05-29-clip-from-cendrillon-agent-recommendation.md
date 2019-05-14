@@ -4,7 +4,7 @@ date: 2018-05-29T14:15:45-04:00
 author: Yohan Belmin
 excerpt: As you probably know, I had the chance to be part of the production of "Cendrillon" at the MET which closed on May 11. If you didn't manage to see it, either at the opera or at the movies, I wanted to share with you the clip of my appearance as the King's Herald!
 layout: post
-image: /wp-content/uploads/2018/05/vlcsnap-2018-04-30-00h04m39s223-e1527612584154.png
+image: /content/images/banners/posts/vlcsnap-2018-04-30-00h04m39s223-e1527612584154.png
 categories:
   - News
 ---

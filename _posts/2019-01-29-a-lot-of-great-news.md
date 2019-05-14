@@ -4,7 +4,7 @@ date: 2019-01-29T14:25:08-04:00
 author: Yohan Belmin
 excerpt: I got cast once again at The Metropolitan Opera, this time in La Fille du Régiment, in which I will be playing the role of the Notary starting Feb 7!
 layout: post
-image: /wp-content/uploads/2019/01/1600x685_fille-e1548652918489.jpg
+image: /content/images/banners/posts/1600x685_fille-e1548652918489.jpg
 categories:
   - News
 ---

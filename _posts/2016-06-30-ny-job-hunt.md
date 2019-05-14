@@ -5,7 +5,7 @@ author: Yohan Belmin
 excerpt: |
   I'm looking for a job! I'm back in NY after completing "Le Wagon" in Paris, and I'm a looking for a position as a"Junior Full Stack Ruby Developer".
 layout: post
-image: /wp-content/uploads/2016/06/job-hunt-e1467312249630.jpg
+image: /content/images/banners/posts/job-hunt-e1467312249630.jpg
 categories:
   - News
 ---

@@ -3,7 +3,7 @@ title: Clip from the Met + More
 date: 2019-03-26T14:15:35-04:00
 author: Yohan Belmin
 layout: post
-image: /wp-content/uploads/2019/03/vlcsnap-2019-03-26-09h05m03s708-e1553616455397.png
+image: /content/images/banners/posts/vlcsnap-2019-03-26-09h05m03s708-e1553616455397.png
 categories:
   - News
 ---

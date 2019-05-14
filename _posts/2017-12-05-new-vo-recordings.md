@@ -4,7 +4,7 @@ date: 2017-12-05T14:30:04-04:00
 author: Yohan Belmin
 excerpt: "Today, I'm happy to share that I've recorded a new VO for Getty Images + another one for Holiday Inn Express, both in French."
 layout: post
-image: /wp-content/uploads/2017/12/StockSnap_P62MVB826H-e1512499276638.jpg
+image: /content/images/banners/posts/StockSnap_P62MVB826H-e1512499276638.jpg
 categories:
   - News
 ---
