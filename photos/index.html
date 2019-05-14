@@ -6,11 +6,157 @@ image:
 order: 4
 
 headshots:
-  - image_path:
-    title:
+  - image_path: /content/images/headshots/IMG_3578.jpg
+    title: Headshot_1
+  - image_path: /content/images/headshots/Yohan_Belmin_124_v2_resized.jpg
+    title: Headshot_2
+  - image_path: /content/images/headshots/Yohan_Belmin_217_v2_resized.jpg
+    title: Headshot_3
+  - image_path: /content/images/headshots/Yohan_Belmin_237_v2_resized.jpg
+    title: Headshot_4
+  - image_path: /content/images/headshots/Yohan_Belmin_369_v4_resized.jpg
+    title: Headshot_5
+  - image_path: /content/images/headshots/Yohan_Belmin_585_v2_resized.jpg
+    title: Headshot_6
+  - image_path: /content/images/headshots/Yohan_Belmin_626_resized.jpg
+    title: Headshot_7
+  - image_path: /content/images/headshots/Yohan_Belmin_702_v2_resized.jpg
+    title: Headshot_8
+  - image_path: /content/images/headshots/Yohan_Belmin_960v2_resized.jpg
+    title: Headshot_9
+  - image_path: /content/images/headshots/Yohan_Belmin_9404_resized.jpg
+    title: Headshot_10
+  - image_path: /content/images/headshots/Yohan_Belmin_9507_resized.jpg
+    title: Headshot_11
+
 
 screenshots:
-  - image_path:
-    title:
+  - image_path: /content/images/screenshots/161.jpg
+    title: Screenshot_1
+  - image_path: /content/images/screenshots/171.jpg
+    title: Screenshot_2
+  - image_path: /content/images/screenshots/181.jpg
+    title: Screenshot_3
+  - image_path: /content/images/screenshots/221.jpg
+    title: Screenshot_4
+  - image_path: /content/images/screenshots/AllureStill1_sm.jpg
+    title: Screenshot_5
+  - image_path: /content/images/screenshots/vlcsnap-2014-05-03-15h16m35s241.jpg
+    title: Screenshot_6
+  - image_path: /content/images/screenshots/vlcsnap-2014-05-03-15h22m17s26.jpg
+    title: Screenshot_7
+  - image_path: /content/images/screenshots/vlcsnap-2013-09-28-22h27m02s232.png
+    title: Screenshot_8
+  - image_path: /content/images/screenshots/vlcsnap-2013-10-16-23h51m29s20.png
+    title: Screenshot_9
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-13h56m04s89.png
+    title: Screenshot_10
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-14h05m03s93.png
+    title: Screenshot_11
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-14h06m17s22.png
+    title: Screenshot_12
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-14h06m50s137.png
+    title: Screenshot_13
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-14h08m35s180.png
+    title: Screenshot_14
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-14h10m20s204.png
+    title: Screenshot_15
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-18h14m17s158.png
+    title: Screenshot_16
+  - image_path: /content/images/screenshots/vlcsnap-2014-01-05-18h15m26s57.png
+    title: Screenshot_17
+  - image_path: /content/images/screenshots/vlcsnap-2014-04-30-11h54m57s154.png
+    title: Screenshot_18
+  - image_path: /content/images/screenshots/vlcsnap-2014-05-03-15h13m00s22.png
+    title: Screenshot_19
+  - image_path: /content/images/screenshots/vlcsnap-2014-05-03-15h18m10s139.png
+    title: Screenshot_20
+  - image_path: /content/images/screenshots/vlcsnap-2018-04-30-00h04m39s223.png
+    title: Screenshot_21
+  - image_path: /content/images/screenshots/vlcsnap-2019-03-26-09h05m03s708.png
+    title: Screenshot_22
+
+other:
+  - image_path: /content/images/other/CFFNY-13.jpg
+    title: Other_1
+  - image_path: /content/images/other/image4.jpg
+    title: Other_2
+  - image_path: /content/images/other/Photo-9.jpg
+    title: Other_3
 
 ---
+
+<p><strong>Headshots:</strong>
+  <main class="photo-gallery-grid">
+    {% for headshot in page.headshots %}
+
+        <a href="{{ headshot.image_path }}" target="_blank">
+          <img src="{{ headshot.image_path }}" alt="{{ headshot.title}}"/>
+        </a>
+
+    {% endfor %}
+  </main>
+</p>
+
+<hr />
+
+<p><strong>Screenshots:</strong>
+  <main class="photo-gallery-grid">
+    {% for screenshot in page.screenshots %}
+
+        <a href="{{ screenshot.image_path }}" target="_blank">
+          <img src="{{ screenshot.image_path }}" alt="{{ screenshot.title}}"/>
+        </a>
+
+    {% endfor %}
+  </main>
+</p>
+
+<hr />
+
+<p><strong>Others:</strong>
+  <main class="photo-gallery-grid">
+    {% for other_image in page.other %}
+
+        <a href="{{ other_image.image_path }}" target="_blank">
+          <img src="{{ other_image.image_path }}" alt="{{ other_image.title}}"/>
+        </a>
+
+    {% endfor %}
+  </main>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
