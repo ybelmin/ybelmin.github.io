@@ -28,10 +28,10 @@ layout: default
 
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
-              <span class="entry-meta">{{ post.date | date: date_format }}</span>
+              <p class="entry-meta">{{ post.date | date: date_format }}:</p>
 
-              <br>
               {{ post.excerpt }}
+              <a href="{{ post.url | relative_url }}">[Read more...]</a>
 
               <!--{%- if site.show_excerpts -%}
                 {{ post.excerpt }}

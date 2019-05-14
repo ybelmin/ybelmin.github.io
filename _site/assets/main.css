@@ -178,3 +178,6 @@ input[type="submit"],
 
 .contact-form input, textarea {
   text-align: left; }
+
+#mc_embed_signup input, textarea {
+  text-align: left; }
