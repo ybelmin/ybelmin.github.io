@@ -2,9 +2,10 @@
   <h2 class="genesis-sidebar-title screen-reader-text">Footer</h2>
   <div class="wrap">
 
+    <!--
     <div class="widget-area footer-widgets-1 footer-widget-area">
 
-      <!--
+
       <section id="search-3" class="widget widget_search">
         <div class="widget-wrap">
           <form class="search-form" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" method="get" action="https://ybelmin.github.io/" role="search">
@@ -14,7 +15,7 @@
           </form>
         </div>
       </section>
-      -->
+
 
       <section id="user-profile-2" class="widget user-profile">
         <div class="widget-wrap">
@@ -23,6 +24,7 @@
       </section>
 
     </div>
+    -->
 
     <div class="widget-area footer-widgets-2 footer-widget-area">
 
@@ -45,10 +47,10 @@
                       {%- endif -%}
                     </a>
                     <h3 class="rpwe-title">
-                      <a href={{ post.url | relative_url }} title="Permalink to Clip from the Met + More" rel="bookmark">{{ post.title | escape }}</a>
+                      <a href={{ post.url | relative_url }} title={{ post.title | escape }} rel="bookmark">{{ post.title | escape }}</a>
                     </h3>
                     <div class="rpwe-summary">
-                      {{ post.excerpt }}
+                      <a href={{ post.url | relative_url }} title={{ post.title | escape }} rel="bookmark">{{ post.excerpt }}</a>
                     </div>
 
                    </li>
@@ -80,5 +82,10 @@
 <footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter">
   <div class="wrap">
     <p><strong>© 2019 - Yohan Belmin - Some Rights Reserved</strong></p>
+    <p>
+      <a href="https://www.linkedin.com/in/ybelmin" target="_blank">
+        <i class="fa fa-linkedin-square" style="font-size: 22px; color: #d33e43;"></i>
+      </a>
+    </p>
   </div>
 </footer>

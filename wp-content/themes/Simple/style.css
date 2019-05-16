@@ -281,7 +281,7 @@ li.comment a {border-bottom: none;}
 .site-footer {font-size: 16px;font-size: 1.6rem;line-height: 1;padding: 0 0 6% 0px;text-align: center;}
 .simple-landing .site-footer {padding: 0 0 6% 0;}
 .site-footer .wrap {width: 800px;max-width: 84%;margin: 0 auto;padding: 2.5% 10% 5% 10%;}
-.site-footer a {text-decoration: none;}
+.site-footer a {text-decoration: none; border-bottom: none;}
 .site-footer p {margin-bottom: 0;}
 .site-footer .dashicons {font-size: 16px;}
 @media only screen and (max-width: 860px) {.site-inner, .wrap {padding-left: 3%;padding-right: 3%;}
@@ -378,7 +378,7 @@ input, select, textarea {text-align: center;font-size: 1.4rem;}
 .footer-widgets-1 {text-align: justify;width: 55%;}
 .footer-widgets-1 img {width: 100%;content: url("https://ybelmin.github.io/wp-content/uploads/2016/01/IMG_3386-1-2-e1452445566155.jpg");padding-bottom: 5px;}
 .footer-widgets-1 a {font-weight: bold;}
-.footer-widgets-2 {text-align: left;width: 45%;}
+.footer-widgets-2 {text-align: left;width: 100%;}
 .widget-wrap ul {padding-left: 0;}
 .enews-widget, .enews-widget .widget-title {color: black;text-align: center;}
 .footer-widgets-2 .simple-social-icons, .footer-widgets-2 .widget_polylang {display: none;}
