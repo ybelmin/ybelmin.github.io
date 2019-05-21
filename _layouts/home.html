@@ -2,9 +2,9 @@
 layout: default
 ---
 
-  <!-- {%- if page.title -%}
-    <h1 class="">{{ page.title }}</h1>
-  {%- endif -%} -->
+  <!--  if page.title
+    <h1 class=""> page.title </h1>
+   endif  -->
 
   {{ content }}
 
@@ -33,9 +33,9 @@ layout: default
               {{ post.excerpt }}
               <a href="{{ post.url | relative_url }}">[Read more...]</a>
 
-              <!--{%- if site.show_excerpts -%}
-                {{ post.excerpt }}
-              {%- endif -%}-->
+              <!-- if site.show_excerpts
+                 post.excerpt
+               endif -->
 
             </header>
             <footer class="entry-footer"></footer>
