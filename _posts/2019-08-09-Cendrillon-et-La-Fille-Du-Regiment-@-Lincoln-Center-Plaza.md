@@ -1,5 +1,5 @@
 ---
-title: '"Cendrillon" & La "Fille du Régiment" @ Lincoln Center Plaza'
+title: '"Cendrillon" & "La Fille du Régiment" @ Lincoln Center Plaza'
 date: 2019-08-09T13:30:00-04:00
 author: Yohan Belmin
 excerpt: The 2 operas I was a part of&#58; "Cendrillon" & "La Fille du Régiment", will be screened for free @ The Metropolitan Opera's 11th Summer HD Festival, respectively on August 29 & August 31.
