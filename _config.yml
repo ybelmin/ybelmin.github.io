@@ -33,6 +33,7 @@ sass:
     sass_dir: _sass
 
 paginate: 5
+future: true
 
 
 # Exclude from processing.
