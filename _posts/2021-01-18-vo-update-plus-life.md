@@ -1,27 +1,29 @@
 ---
-title: VO update + Life
-date: 2021-01-18
+title: Back in NY
+date: 2021-10-11
 author: Yohan Belmin
 excerpt:
 layout: post
-image: /content/images/banners/posts/once-upon-a-time-719174_1920.jpg
+image: /content/images/banners/posts/new_york_promenade.jpg
 categories:
   - News
 ---
 
-How is life? (I was tempted to create a survey with two possible choices: a) "Good, actually!" or b) "Duh...".)
+I hope you are doing well. I really had nothing big to share since last January, hence the lack of updates. But things have changed recently:
 
-On my end, and I believe for a lot of people too, a lot has happened since I wrote in June. Let's be honest: after doing a 2-week quarantine in Mexico in September, I managed to make it back to Texas to reunite with my partner, only to witness the relationship end quite quickly and move back to France. It's sad, for sure, but I can't help to see some humour in it too considering what 2020 has been in general + the fact that after re-reading my journal, my new year resolution for last year was to "travel and be more adventurous"! Hey, at least I am a man of my word ;)
+1) **I have moved back to NY** 2 week ago. And yes, I had to do another 2-week quarantine outside of France to enter the US which, at this point, is just a nice vacation really. At least, the travel ban is now ending in November.
 
-Now for the (much) better part:
+2) **I was able to join the Actors' Equity Association (AEA)** thanks to their Open Access program + the fact that they now accept visa holders. I am excited to now have the opportunity to one day play French people on and off Broadway ;)
 
-**1)** I added a <a rel="noreferrer noopener" href="https://www.yohanbelmin.com/voiceover/" target="">**dedicated voice-over page**</a> on my website, and uploaded 3 VO demos.<br>
-**2)** I now have a home studio set-up to record VO work.<br>
-**3)** And, I am now SAG-AFTRA Eligible thanks to a voice-over I recorded last year!
+3) **I am looking for a long-term room to rent in NYC** (or, hey, an **apartment?**). If any of you know of a great deal, or know someone who might, I am all ears. It would be starting Nov. 1, and the date is flexible.
 
-I am thinking of you all, I hope you are well, and I am sending the brightest vibes your way.
+4) **I did not (yet) get my Green Card** even after winning the lottery, **and I might not**. _Briefly:_ there was a deadline after which you would lose your chance to get one + the embassies were closed and were not delivering visas for a long time due to Covid, _BUT_ 25,000 of us sued the US DoS and won, _HOWEVER_ the judge is only preserving a third of the Green Cards. _To sum up:_ fun times. Looking forward to Season 2!
 
-How is life? (for real.) I'd love to hear from you.
+5) Which mean: **I will most probably have to renew my Visa a 4th time for safety** in the upcoming months. I will once again need the help of some of you, and might reach out soon enough about this specific subject.
+
+That's for me, still holding on to wanting to live in the US for some unconscious and probably valid reason!
+
+How about you? How has everything been with you?
 
 Much love,
 
