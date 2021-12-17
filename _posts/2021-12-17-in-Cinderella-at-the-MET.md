@@ -4,7 +4,7 @@ date: 2021-12-17
 author: Yohan Belmin
 excerpt: I am reprising the role of the "Herald" this holiday season in a new 95-minute & English version of "Cinderella"
 layout: post
-image: /content/images/banners/posts/1600x685-cinderella-3.jpg
+image: /content/images/banners/posts/1600x685-cinderella-3.jpeg
 categories:
   - News
 ---
