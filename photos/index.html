@@ -89,7 +89,7 @@ other:
 <p><strong>Headshots:</strong>
   <main class="photo-gallery-grid">
     {% for headshot in page.headshots %}
-        <a href="{{ headshot.image_path }}" target="_blank">
+        <a href="{{ headshot.image_path }}" data-lightbox="headshots" target="_blank">
           <img src="{{ headshot.image_path }}" alt="{{ headshot.title}}"/>
         </a>
     {% endfor %}
@@ -101,7 +101,7 @@ other:
 <p><strong>Screenshots:</strong>
   <main class="photo-gallery-grid">
     {% for screenshot in page.screenshots %}
-        <a href="{{ screenshot.image_path }}" target="_blank">
+        <a href="{{ screenshot.image_path }}" data-lightbox="screenshots" target="_blank">
           <img src="{{ screenshot.image_path }}" alt="{{ screenshot.title}}"/>
         </a>
     {% endfor %}
@@ -113,7 +113,7 @@ other:
 <p><strong>Other:</strong>
   <main class="photo-gallery-grid">
     {% for other_image in page.other %}
-        <a href="{{ other_image.image_path }}" target="_blank">
+        <a href="{{ other_image.image_path }}" data-lightbox="other" target="_blank">
           <img src="{{ other_image.image_path }}" alt="{{ other_image.title}}"/>
         </a>
     {% endfor %}
