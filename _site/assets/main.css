@@ -1053,10 +1053,6 @@ a.alignright, img.alignright, .wp-caption.alignright {
   line-height: 1.2;
   text-align: right; }
 
-.site-title:after {
-  color: #d33e43;
-  content: "."; }
-
 .site-title a, .site-title a:hover, .site-title a:focus {
   color: #282d33; }
 

@@ -199,7 +199,7 @@ a.alignright, img.alignright, .wp-caption.alignright {margin: 0 0 24px 24px;}
 .title-area {border-bottom: 1px dashed #d33e43 !important;float: left;padding: 0 0 20px 0;position: relative;width: 100%;z-index: 1;}
 .nav-visible .title-area {transform: translateY(30%) rotateX(-90deg);opacity: 0;}
 .site-title {font-family: "Podkova",serif;font-size: 36px;font-size: 3.6rem;font-weight: 700;line-height: 1.2;text-align: right;}
-.site-title:after {color: #d33e43;content: ".";}
+//.site-title:after {color: #d33e43;content: ".";}
 .site-title a, .site-title a:hover, .site-title a:focus {color: #282d33;}
 .header-image .site-title > a {background: url("images/logo.png") no-repeat left;float: left;min-height: 60px;width: 100%;}
 .site-description, .site-title {margin-bottom: 0;}
