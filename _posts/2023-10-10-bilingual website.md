@@ -2,16 +2,12 @@
 title: Updates + Site Bilingue | Bilingual Website
 date: 2024-09-05
 author: Yohan Belmin
-excerpt:
+excerpt: ":fr: :us:"
 layout: post
 image: /content/images/banners/posts/red-blue-hand-painted-brush-stroke-resized.jpg
 categories:
   - News
 ---
-
-:fr: :us:
-
-<hr>
 
 :fr:
 
