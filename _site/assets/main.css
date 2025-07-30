@@ -1617,7 +1617,7 @@ a {
 
 .site-footer {
   padding-left: 0px;
-  padding-top: 3%; }
+  padding-top: 0%; }
 
 a:visited:not(.more-link), .more-link {
   border-bottom: 1px solid #424b54; }
